@@ -2,8 +2,6 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  assetsInclude: ['**/*.json'],
-  json: {
-    stringify: false
-  }
+  base: '/aura-shop/', // ← Назва твого репозиторію
+  // ... інші налаштування
 })

@@ -1,0 +1,914 @@
+/* src/styles/brandPages.css */
+
+/* ============ MAIN CONTAINER ============ */
+.brand-page-main {
+  min-height: 100vh;
+  background: white;
+}
+
+/* ============ HERO SECTION ============ */
+.brand-hero {
+  padding: 140px 50px 80px;
+  background: linear-gradient(135deg, #b8927d 0%, #a67c6d 100%);
+  text-align: center;
+}
+
+.brand-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.brand-hero-title {
+  font-size: 52px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  font-family: var(--font-primary);
+  color: white;
+  letter-spacing: 2px;
+}
+
+.brand-hero-subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  font-family: var(--font-secondary);
+  line-height: 1.6;
+}
+
+/* ============ SECTIONS ============ */
+.brand-section {
+  padding: 100px 50px;
+}
+
+.brand-section-title {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0 0 40px 0;
+  font-family: var(--font-primary);
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.brand-center {
+  text-align: center;
+}
+
+.brand-center-white {
+  text-align: center;
+  color: white;
+}
+
+.brand-center-text {
+  text-align: center;
+  font-size: 17px;
+  color: #666;
+  margin: 0 auto 60px;
+  max-width: 700px;
+  font-family: var(--font-secondary);
+  line-height: 1.8;
+}
+
+.brand-paragraph {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #555;
+  margin: 0 0 25px 0;
+  font-family: var(--font-secondary);
+}
+
+/* ============ GRAY BACKGROUND SECTION ============ */
+.brand-gray-section {
+  background: #f8f8f8;
+  padding: 100px 50px;
+}
+
+/* ============ ACCENT BACKGROUND SECTION ============ */
+.brand-accent-section {
+  background: #b8927d;
+  padding: 100px 50px;
+}
+
+.brand-accent-section * {
+  color: white;
+}
+
+/* ============ TWO COLUMN LAYOUT ============ */
+.brand-two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.brand-two-column-equal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.brand-reverse {
+  direction: rtl;
+}
+
+.brand-reverse > * {
+  direction: ltr;
+}
+
+.brand-column {
+  width: 100%;
+}
+
+/* ============ THREE COLUMN LAYOUT ============ */
+.brand-three-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* ============ FOUR COLUMN LAYOUT ============ */
+.brand-four-column {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* ============ IMAGE BOX ============ */
+.brand-image-box {
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-color: #f5f5f5;
+}
+
+/* ============ CONTACT INFO ============ */
+.brand-contact-info {
+  display: grid;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.brand-contact-item h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 8px 0;
+  font-family: var(--font-secondary);
+  color: #999;
+}
+
+.brand-contact-item p {
+  font-size: 18px;
+  margin: 0;
+  font-family: var(--font-secondary);
+  color: #333;
+}
+
+/* ============ RESOURCE CARDS ============ */
+.brand-resource-card {
+  background: white;
+  padding: 40px 35px;
+  transition: all 0.3s;
+}
+
+.brand-resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.brand-resource-card h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  font-family: var(--font-primary);
+  color: #333;
+}
+
+.brand-resource-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666;
+  margin: 0 0 20px 0;
+  font-family: var(--font-secondary);
+}
+
+.brand-link {
+  font-size: 14px;
+  color: #b8927d;
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.brand-link:hover {
+  color: #a67c6d;
+}
+
+/* ============ FEATURED GRID ============ */
+.brand-featured-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.brand-featured-item {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f8f8f8;
+  font-size: 20px;
+  font-family: var(--font-primary);
+  color: #333;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+/* ============ INITIATIVE CARDS ============ */
+.brand-initiative-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.brand-initiative-number {
+  font-size: 48px;
+  font-weight: 300;
+  font-family: var(--font-primary);
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.brand-initiative-card h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  font-family: var(--font-primary);
+}
+
+.brand-initiative-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  font-family: var(--font-secondary);
+}
+
+/* ============ STATS GRID ============ */
+.brand-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.brand-stat {
+  text-align: center;
+  padding: 30px;
+  background: #f8f8f8;
+}
+
+.brand-stat-number {
+  font-size: 48px;
+  font-weight: 300;
+  font-family: var(--font-primary);
+  color: #b8927d;
+  margin-bottom: 10px;
+}
+
+.brand-stat-label {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-secondary);
+  color: #666;
+}
+
+/* ============ CERT GRID ============ */
+.brand-cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.brand-cert-item {
+  padding: 30px 20px;
+  text-align: center;
+  background: white;
+  font-size: 16px;
+  font-family: var(--font-secondary);
+  color: #333;
+}
+
+/* ============ PROMO CARDS ============ */
+.brand-promo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.brand-promo-card {
+  background: #f8f8f8;
+  padding: 50px 40px;
+  text-align: center;
+  position: relative;
+}
+
+.brand-promo-featured {
+  background: #b8927d;
+  color: white;
+}
+
+.brand-promo-featured * {
+  color: white;
+}
+
+.brand-promo-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #333;
+  color: white;
+  padding: 6px 15px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-secondary);
+}
+
+.brand-promo-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  font-family: var(--font-primary);
+}
+
+.brand-promo-desc {
+  font-size: 15px;
+  margin: 0 0 25px 0;
+  font-family: var(--font-secondary);
+  color: #666;
+}
+
+.brand-promo-featured .brand-promo-desc {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.brand-promo-code {
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  color: #333;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  font-family: var(--font-secondary);
+}
+
+.brand-promo-btn,
+.brand-promo-btn-outline {
+  display: inline-block;
+  padding: 12px 35px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-secondary);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.brand-promo-btn {
+  background: #333;
+  color: white;
+}
+
+.brand-promo-btn:hover {
+  background: #1a1a1a;
+}
+
+.brand-promo-btn-outline {
+  background: transparent;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.brand-promo-btn-outline:hover {
+  background: #333;
+  color: white;
+}
+
+/* ============ BENEFITS GRID ============ */
+.brand-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.brand-benefit-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.brand-benefit-item h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  font-family: var(--font-primary);
+}
+
+.brand-benefit-item p {
+  font-size: 15px;
+  margin: 0 0 10px 0;
+  font-family: var(--font-secondary);
+}
+
+/* ============ BENEFIT CARDS ============ */
+.brand-benefit-card {
+  background: white;
+  padding: 40px 35px;
+}
+
+.brand-benefit-card h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  font-family: var(--font-primary);
+  color: #333;
+}
+
+.brand-benefit-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666;
+  margin: 0;
+  font-family: var(--font-secondary);
+}
+/* ============ PRICING CARDS ============ */
+.brand-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.brand-pricing-card {
+  background: #f8f8f8;
+  padding: 50px 40px;
+  text-align: center;
+  position: relative;
+}
+
+.brand-pricing-featured {
+  background: #333;
+  color: white;
+}
+
+.brand-pricing-featured * {
+  color: white;
+}
+
+.brand-pricing-popular {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #b8927d;
+  color: white;
+  padding: 6px 20px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-secondary);
+}
+
+.brand-pricing-card h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 20px 0;
+  font-family: var(--font-secondary);
+  color: #999;
+}
+
+.brand-pricing-featured h3 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.brand-pricing-amount {
+  font-size: 42px;
+  font-weight: 300;
+  font-family: var(--font-primary);
+  margin: 0 0 30px 0;
+  color: #b8927d;
+}
+
+.brand-pricing-featured .brand-pricing-amount {
+  color: white;
+}
+
+.brand-pricing-card p {
+  font-size: 15px;
+  margin: 10px 0;
+  font-family: var(--font-secondary);
+  color: #666;
+}
+
+.brand-pricing-featured p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* ============ PROCESS GRID ============ */
+.brand-process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.brand-process-step {
+  text-align: center;
+}
+
+.brand-process-icon {
+  width: 80px;
+  height: 80px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-family: var(--font-primary);
+  font-weight: 300;
+  margin: 0 auto 25px;
+}
+
+.brand-process-step h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  font-family: var(--font-primary);
+}
+
+.brand-process-step p {
+  font-size: 15px;
+  margin: 0;
+  font-family: var(--font-secondary);
+  line-height: 1.6;
+}
+
+/* ============ CONTACT BOX ============ */
+.brand-contact-box {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.brand-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.brand-contact-grid h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 8px 0;
+  font-family: var(--font-secondary);
+  color: #999;
+}
+
+.brand-contact-grid p {
+  font-size: 16px;
+  margin: 0;
+  font-family: var(--font-secondary);
+  color: #333;
+}
+
+/* ============ STEPS GRID ============ */
+.brand-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.brand-step {
+  text-align: center;
+}
+
+.brand-step-number {
+  width: 60px;
+  height: 60px;
+  background: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-family: var(--font-primary);
+  font-weight: 300;
+  margin: 0 auto 20px;
+}
+
+.brand-step h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  font-family: var(--font-primary);
+  color: #333;
+}
+
+.brand-step p {
+  font-size: 15px;
+  margin: 0;
+  font-family: var(--font-secondary);
+  color: #666;
+}
+
+/* ============ INTRO BOX ============ */
+.brand-intro-box {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ============ HOW CARDS ============ */
+.brand-how-card {
+  background: white;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.brand-how-number {
+  width: 50px;
+  height: 50px;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: var(--font-primary);
+  font-weight: 300;
+  margin: 0 auto 20px;
+  color: #b8927d;
+}
+
+.brand-how-card h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  font-family: var(--font-primary);
+  color: #333;
+}
+
+.brand-how-card p {
+  font-size: 14px;
+  margin: 0;
+  font-family: var(--font-secondary);
+  color: #666;
+}
+/* ============ COMMISSION CARDS ============ */
+.brand-commission-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.brand-commission-card {
+  background: #f8f8f8;
+  padding: 50px 40px;
+  text-align: center;
+  position: relative;
+}
+
+.brand-commission-highlight {
+  background: #333;
+  color: white;
+}
+
+.brand-commission-highlight * {
+  color: white;
+}
+
+.brand-commission-tier {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 20px 0;
+  font-family: var(--font-secondary);
+  color: #999;
+}
+
+.brand-commission-highlight .brand-commission-tier {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.brand-commission-rate {
+  font-size: 52px;
+  font-weight: 300;
+  font-family: var(--font-primary);
+  margin: 0 0 20px 0;
+  color: #b8927d;
+}
+
+.brand-commission-highlight .brand-commission-rate {
+  color: white;
+}
+
+.brand-commission-card p {
+  font-size: 15px;
+  margin: 0;
+  font-family: var(--font-secondary);
+  color: #666;
+}
+
+.brand-commission-highlight p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* ============ AFFILIATE BENEFITS ============ */
+.brand-affiliate-benefit {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 35px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.brand-affiliate-benefit h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+  font-family: var(--font-primary);
+}
+
+.brand-affiliate-benefit p {
+  font-size: 15px;
+  margin: 0;
+  font-family: var(--font-secondary);
+  line-height: 1.7;
+}
+
+/* ============ IDEAL LIST ============ */
+.brand-ideal-list {
+  display: grid;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.brand-ideal-item h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 8px 0;
+  font-family: var(--font-primary);
+  color: #333;
+}
+
+.brand-ideal-item p {
+  font-size: 15px;
+  margin: 0;
+  font-family: var(--font-secondary);
+  color: #666;
+}
+
+/* ============ CTA BUTTONS ============ */
+.brand-cta-btn,
+.brand-cta-btn-white {
+  display: inline-block;
+  padding: 15px 50px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-secondary);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.brand-cta-btn {
+  background: #333;
+  color: white;
+}
+
+.brand-cta-btn:hover {
+  background: #1a1a1a;
+}
+
+.brand-cta-btn-white {
+  background: white;
+  color: #333;
+}
+
+.brand-cta-btn-white:hover {
+  background: #f0f0f0;
+}
+
+/* ============ CTA BOX ============ */
+.brand-cta-box-section {
+  padding: 0 50px 100px;
+}
+
+.brand-cta-box {
+  background: #b8927d;
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.brand-cta-box h2 {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0 0 15px 0;
+  font-family: var(--font-primary);
+  color: white;
+}
+
+.brand-cta-box p {
+  font-size: 17px;
+  margin: 0 0 35px 0;
+  font-family: var(--font-secondary);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 992px) {
+  .brand-hero {
+    padding: 120px 30px 60px;
+  }
+
+  .brand-hero-title {
+    font-size: 40px;
+  }
+
+  .brand-section,
+  .brand-gray-section,
+  .brand-accent-section {
+    padding: 80px 30px;
+  }
+
+  .brand-two-column,
+  .brand-two-column-equal {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .brand-reverse {
+    direction: ltr;
+  }
+
+  .brand-three-column,
+  .brand-four-column,
+  .brand-featured-grid,
+  .brand-cert-grid,
+  .brand-promo-grid,
+  .brand-benefits-grid,
+  .brand-pricing-grid,
+  .brand-process-grid,
+  .brand-commission-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .brand-stat-grid,
+  .brand-contact-grid,
+  .brand-steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-image-box {
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .brand-hero {
+    padding: 100px 20px 50px;
+  }
+
+  .brand-hero-title {
+    font-size: 32px;
+  }
+
+  .brand-section,
+  .brand-gray-section,
+  .brand-accent-section {
+    padding: 60px 20px;
+  }
+
+  .brand-section-title {
+    font-size: 28px;
+  }
+
+  .brand-cta-box-section {
+    padding: 0 20px 60px;
+  }
+
+  .brand-cta-box {
+    padding: 60px 30px;
+  }
+  .brand-cta-box h2 {
+    font-size: 28px;
+  }
+}

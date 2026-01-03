@@ -1,0 +1,369 @@
+/* src/styles/contacts.css */
+
+.contacts-main {
+  background: white;
+}
+/* ============ BREADCRUMBS ============ */
+.contacts-breadcrumbs-container {
+  padding: 100px  45px 0;
+}
+
+.contacts-breadcrumbs {
+  font-size: 14px;
+  font-family: var(--font-secondary);
+  line-height: 1.5;
+}
+
+.breadcrumb-link {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-link:hover {
+  color: #333;
+}
+
+.breadcrumb-separator {
+  margin: 0 6px;
+  color: #666;
+}
+
+.breadcrumb-current {
+  color: #333;
+  font-weight: 600;
+}
+.contacts-hero {
+  padding: 40px 0 30px;
+}
+
+.contacts-hero-title {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0;
+  font-family: var(--font-primary);
+  color: #333;
+  white-space: nowrap;
+}
+
+.contacts-hero-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+  font-family: var(--font-secondary);
+}
+
+/* ============ CONTENT SECTION ============ */
+.contacts-content-section {
+  padding: 80px 50px;
+}
+
+.contacts-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 80px;
+}
+
+/* ============ CONTACT INFO ============ */
+.contacts-info {
+  padding-right: 20px;
+}
+
+.contacts-info-title {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0 0 40px 0;
+  font-family: var(--font-primary);
+  color: #333;
+}
+
+.contacts-info-block {
+  margin-bottom: 35px;
+}
+
+.contacts-info-label {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  font-family: var(--font-secondary);
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contacts-info-link {
+  display: block;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  transition: color 0.3s;
+}
+
+.contacts-info-link:hover {
+  color: #b8927d;
+}
+
+.contacts-info-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+  margin: 0 0 5px 0;
+  font-family: var(--font-secondary);
+}
+
+/* ============ SOCIAL LINKS ============ */
+.contacts-social {
+  margin-top: 40px;
+}
+
+.contacts-social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.contacts-social-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  color: #666;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.contacts-social-link:hover {
+  border-color: #b8927d;
+  color: #b8927d;
+}
+
+/* ============ CONTACT FORM ============ */
+.contacts-form-container {
+  background: #f9f9f9;
+  padding: 50px 40px;
+}
+
+.contacts-form-title {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 0 35px 0;
+  font-family: var(--font-primary);
+  color: #333;
+}
+
+.contacts-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contacts-form-group {
+  margin-bottom: 25px;
+}
+
+.contacts-form-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  font-family: var(--font-secondary);
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contacts-form-input,
+.contacts-form-textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  font-family: var(--font-secondary);
+  color: #333;
+  background: white;
+  transition: border-color 0.3s;
+}
+
+.contacts-form-input:focus,
+.contacts-form-textarea:focus {
+  outline: none;
+  border-color: #b8927d;
+}
+
+.contacts-form-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contacts-form-submit {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 13px;
+  font-family: var(--font-secondary);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.contacts-form-submit:hover {
+  background: #b8927d;
+}
+
+/* ============ FAQ SECTION ============ */
+.contacts-faq-section {
+  background: #f9f9f9;
+  padding: 80px 50px;
+}
+
+.contacts-faq-title {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0 0 50px 0;
+  font-family: var(--font-primary);
+  color: #333;
+  text-align: center;
+}
+
+.contacts-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contacts-faq-item {
+  background: white;
+  padding: 30px;
+}
+
+.contacts-faq-question {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  font-family: var(--font-primary);
+  color: #333;
+}
+.contacts-faq-answer {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #666;
+  margin: 0;
+  font-family: var(--font-secondary);
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 992px) {
+  .contacts-hero {
+    padding: 90px 0 40px;
+  }
+
+  .contacts-hero-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .contacts-hero-title {
+    font-size: 32px;
+  }
+
+
+
+  .contacts-content-section {
+    padding: 60px 30px;
+  }
+
+  .contacts-content-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .contacts-info {
+    padding-right: 0;
+  }
+
+  .contacts-faq-section {
+    padding: 60px 30px;
+  }
+
+  .contacts-faq-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+ .contacts-hero {
+    padding: 80px 0 30px;
+  }
+
+  .contacts-hero-title {
+    font-size: 26px;
+    white-space: normal;
+  }
+
+  .contacts-hero-subtitle {
+    font-size: 15px;
+  }
+
+  .contacts-content-section {
+    padding: 40px 20px;
+  }
+
+  .contacts-form-container {
+    padding: 30px 20px;
+  }
+
+  .contacts-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contacts-faq-section {
+    padding: 40px 20px;
+  }
+
+  .contacts-faq-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .contacts-faq-item {
+    padding: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .contacts-breadcrumbs-container {
+    padding: 100px 0 20px 0;
+  }
+
+  .contacts-hero {
+    padding: 40px 0 40px;
+  }
+  
+  /* ... решта стилів ... */
+}
+
+@media (max-width: 576px) {
+  .contacts-breadcrumbs-container {
+    padding: 100px 0 15px 0;
+  }
+
+  .contacts-hero {
+    padding: 30px 0 30px;
+  }
+
+  .contacts-breadcrumbs {
+    font-size: 12px;
+  }
+  
+  /* ... решта стилів ... */
+}
+

@@ -1,0 +1,152 @@
+{
+  "site": {
+    "name": "AURA",
+    "tagline": "Handcrafted Candles & Home Fragrances",
+    "description": "We craft the mood of your home with natural, handmade candles and fragrances."
+  },
+  "hero": {
+    "title": "AURA",
+    "subtitle": "Discover the art of home fragrance",
+    "buttonText": "Shop now"
+  },
+  "sections": {
+    "products": {
+      "title": "Our products",
+      "link": "Explore"
+    },
+    "bestsellers": {
+      "title": "Our bestsellers",
+      "link": "Explore"
+    },
+    "philosophy": {
+      "title": "Our philosophy",
+      "text1": "We don't just create scents — we craft the mood of your home. Every candle and diffuser is a ritual that transforms space and brings harmony. ",
+      "buttonText": "Shop now"
+    },
+    "stories": {
+      "title": "Candle tips & stories",
+      "link": "Read more"
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "link": "Read more"
+    }
+  },
+  "stories": [
+    {
+      "id": 1,
+      "title": "Seasonal Fragrances and How They Shape Our Mood",
+      "image": "/images/seasonal.png",
+      "date": "2024-10-15",
+      "author": "Emma Wilson",
+      "content": "<p>As the seasons change, so do our moods and the scents that resonate with us. Understanding how different fragrances align with seasonal shifts can help create a harmonious living space year-round.</p><h2>Spring: Fresh and Floral</h2><p>Spring calls for light, refreshing scents that mirror the blooming world outside. Citrus notes like lemon and bergamot bring energy, while floral scents such as jasmine and lavender create a sense of renewal.</p><h2>Summer: Bright and Energizing</h2><p>Summer fragrances should be vibrant and uplifting. Ocean-inspired scents, tropical fruits, and light florals help maintain a cool, refreshing atmosphere during warm months.</p><h2>Autumn: Warm and Cozy</h2><p>As temperatures drop, turn to warm, spicy scents. Cinnamon, vanilla, and amber create that perfect cozy feeling. Wood-based fragrances like sandalwood add depth and comfort.</p><h2>Winter: Rich and Comforting</h2><p>Winter is the time for deep, luxurious scents. Pine and fir bring the outdoors in, while spices like clove and nutmeg create a festive atmosphere. Don't forget the classics: vanilla and cocoa for ultimate comfort.</p>"
+    },
+    {
+      "id": 2,
+      "title": "Candle Care 101: Tips for Longer Burning",
+      "image": "/images/candle.png",
+      "date": "2024-10-10",
+      "author": "Sarah Mitchell",
+      "content": "<p>Proper candle care not only extends the life of your candles but also ensures they burn safely and beautifully. Follow these expert tips to get the most out of your AURA candles.</p><h2>The First Burn Matters</h2><p>The first time you light your candle is crucial. Allow the wax to melt completely across the entire surface before extinguishing. This prevents tunneling and ensures even burning throughout the candle's life.</p><h2>Trim the Wick</h2><p>Before each use, trim the wick to 1/4 inch. This prevents excessive smoke, uneven burning, and maintains a steady flame. Use proper wick trimmers for best results.</p><h2>Burn Time Guidelines</h2><p>Never burn a candle for more than 4 hours at a time. This prevents the vessel from overheating and maintains the fragrance quality. Allow the candle to cool for at least 2 hours before relighting.</p><h2>Keep It Clean</h2><p>Remove any debris or wick trimmings from the wax pool. Keep the wax pool clear and clean for optimal burning and scent throw.</p><h2>Safe Placement</h2><p>Always place candles on a heat-resistant surface away from drafts, children, and pets. Never leave a burning candle unattended.</p>"
+    },
+    {
+      "id": 3,
+      "title": "How to Choose the Right Scent for Every Room",
+      "image": "/images/how.png",
+      "date": "2024-10-05",
+      "author": "Michael Chen",
+      "content": "<p>Each room in your home serves a different purpose, and the right fragrance can enhance its function while creating the perfect ambiance.</p><h2>Living Room: Welcoming and Warm</h2><p>Your living room is where you entertain and relax. Choose warm, inviting scents like vanilla, amber, or sandalwood. These create a cozy atmosphere that makes guests feel welcome.</p><h2>Bedroom: Calming and Peaceful</h2><p>For better sleep, opt for relaxing scents such as lavender, chamomile, or jasmine. These fragrances promote relaxation and help create a peaceful sleeping environment.</p><h2>Kitchen: Fresh and Clean</h2><p>Combat cooking odors with citrus-based scents like lemon, grapefruit, or mint. These fresh fragrances keep your kitchen smelling clean and inviting.</p><h2>Bathroom: Spa-Like Serenity</h2><p>Transform your bathroom into a spa with eucalyptus, sea salt, or fresh linen scents. These create a clean, refreshing atmosphere perfect for self-care routines.</p><h2>Home Office: Focus and Energy</h2><p>Boost productivity with invigorating scents like peppermint, rosemary, or citrus blends. These fragrances help maintain focus and mental clarity during work hours.</p>"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Olivia M.",
+      "avatar": "/images/olivia.png",
+      "rating": 5,
+      "text": "I ordered the Vanilla Musk candle and it completely transformed my living space. The scent is warm, inviting, and perfectly balanced. It feels like coming home to a cozy embrace every time I light it. The quality of the candle is outstanding, and it burns evenly for hours. This has become my go-to for creating a relaxing ambiance in my home. Definitely coming back for the divine mist blend!",
+      "date": "2024-09-20",
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "James R.",
+      "avatar": "/images/james.png",
+      "rating": 5,
+      "text": "The Citrus Bloom candle exceeded all my expectations. The fragrance is incredibly fresh and uplifting without being overwhelming. I appreciate the natural ingredients and eco-friendly packaging. These candles make perfect gifts too!",
+      "date": "2024-09-15",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "Sophie L.",
+      "avatar": "/images/sophie.jpg",
+      "rating": 5,
+      "text": "Absolutely love the Moonlit Garden scent! It creates such a peaceful atmosphere in my bedroom. The burn time is excellent and the quality is top-notch. AURA has become my favorite candle brand.",
+      "date": "2024-09-10",
+      "verified": true
+    }
+  ],
+  "footer": {
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Subscribe for updates and get 10% off your first order.",
+      "placeholder": "E-Mail",
+      "buttonText": "SUBSCRIBE"
+    },
+    "customerCare": {
+      "title": "Customer Care",
+      "links": [
+        {"text": "Shipping & Returns", "url": "#/shipping"},
+        {"text": "Candle Care", "url": "#/candle-care"},
+        {"text": "Refund Policy", "url": "#/refund-policy"},
+        {"text": "Privacy Policy", "url": "#/privacy-policy"},
+        {"text": "Terms of Service", "url": "#/terms-of-service"}
+      ]
+    },
+    "ourBrand": {
+      "title": "Our Brand",
+      "links": [
+        {"text": "About Us", "url": "#/about"},
+        {"text": "Press Enquiries", "url": "#/press"},
+        {"text": "Sustainability & Ethically", "url": "#/sustainability"},
+        {"text": "Promotions", "url": "#/promotions"},
+        {"text": "Wholesale Disclosure", "url": "#/wholesale"},
+        {"text": "Affiliate Program", "url": "#/affiliate"},
+        {"text": "Sustainability Efforts", "url": "#/sustainability-efforts"}
+      ]
+    },
+    "contact": {
+      "title": "Need Help? You Can Call Us",
+      "phone": "+XX (X) XXXXXXXXX",
+      "hours": [
+        {"days": "Monday - Friday", "time": "09:00 - 21:00"},
+        {"days": "Saturday - Sunday", "time": "10:00 - 18:00"}
+      ]
+    },
+    "copyright": "2025 AURA. All rights reserved."
+  },
+  "buttons": {
+    "addToCart": "Add to cart",
+    "buyNow": "Buy now",
+    "shopNow": "Shop now",
+    "readMore": "Read more",
+    "viewDetails": "View details",
+    "checkout": "Checkout",
+    "continueShopping": "Continue shopping"
+  },
+  "messages": {
+    "addedToCart": "Product added to cart!",
+    "removedFromCart": "Product removed from cart",
+    "emptyCart": "Your cart is empty",
+    "subscribeSuccess": "Thank you for subscribing!",
+    "error": "Something went wrong. Please try again."
+  },
+  "navigation": {
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart",
+    "account": "Account"
+  }
+}

@@ -4,7 +4,7 @@ let contentData = null;
 
 async function loadContent() {
   if (!contentData) {
-    const response = await fetch('/src/data/content.json');
+    const response = await fetch(`${import.meta.env.BASE_URL}data/content.json`);
     contentData = await response.json();
   }
   return contentData;

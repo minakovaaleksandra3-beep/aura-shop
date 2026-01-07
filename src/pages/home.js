@@ -3,12 +3,12 @@ import { getLatestProducts } from '../data/product.js';
 import { TestimonialsSlider } from '../components/testimonialsSlider.js';
 import { addToCart } from '../utils/cart.js';
 import { showModal } from '../components/modal.js';
-
+import { getAssetPath } from '../utils/path.js';
 let contentData = null;
 
 async function loadContent() {
   if (!contentData) {
-    const response = await fetch('/src/data/content.json');
+    const response = await fetch(`${import.meta.env.BASE_URL}data/content.json`);
     contentData = await response.json();
   }
   return contentData;
@@ -17,7 +17,7 @@ async function loadContent() {
 export async function Home() {
   const data = await loadContent();
   const bestsellers = getLatestProducts(4);
-
+  const BASE = import.meta.env.BASE_URL;
   return `
     <!-- Hero Section -->
     <section class="hero-with-header">
@@ -34,21 +34,21 @@ export async function Home() {
         </h2>
         <div class="grid grid-3">
           <a href="#/catalog/candles" class="card category-card">
-            <div style="width: 445px; height: 400px; background-image: url('/images/aromacandle_1.png'); background-size: cover; background-position: center;"></div>
+            <div style="width: 445px; height: 400px; background-image: url('${BASE}images/aromacandle_1.png'); background-size: cover; background-position: center;"></div>
             <div class="card-content">
               <h3>Candles</h3>
               <p class="text-light text-small">Aroma candles</p>
             </div>
           </a>
           <a href="#/catalog/diffusers" class="card category-card">
-            <div style="width: 445px; height: 400px; background-image: url('/images/diffuser_1.png'); background-size: cover; background-position: center;"></div>
+            <div style="width: 445px; height: 400px; background-image: url('${BASE}images/diffuser_1.png'); background-size: cover; background-position: center;"></div>
             <div class="card-content">
               <h3>Diffusers</h3>
               <p class="text-light text-small">Aroma diffusers</p>
             </div>
           </a>
           <a href="#/catalog/gift-sets" class="card category-card">
-            <div style="width: 445px; height: 400px; background-image: url('/images/gift_1.png'); background-size: cover; background-position: center;"></div>
+            <div style="width: 445px; height: 400px; background-image: url('${BASE}images/gift_1.png'); background-size: cover; background-position: center;"></div>
             <div class="card-content">
               <h3>Gift sets</h3>
               <p class="text-light text-small">For special moments</p>

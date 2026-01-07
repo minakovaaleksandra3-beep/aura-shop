@@ -5,7 +5,7 @@ let contentData = null;
 
 async function loadContent() {
   if (!contentData) {
-    const response = await fetch('/src/data/content.json');
+    const response = await fetch(`${ import.meta.env.BASE_URL }data / content.json`);
     contentData = await response.json();
   }
   return contentData;
@@ -123,7 +123,7 @@ export async function initFooter() {
   if (subscribeBtn && emailInput) {
     subscribeBtn.addEventListener('click', () => {
       const email = emailInput.value.trim();
-      
+
       if (!email) {
         showSubscribeModal('error', 'Please enter your email');
         return;

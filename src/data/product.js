@@ -6,21 +6,21 @@ export const categories = [
     name: 'Candles',
     slug: 'candles',
     description: 'Aroma candles',
-    image: '/images/categories/candles.jpg',
+    image: '/aura-shop/images/categories/candles.jpg',
   },
   {
     id: 'diffusers',
     name: 'Diffusers',
     slug: 'diffusers',
     description: 'Aroma diffusers',
-    image: '/images/categories/diffusers.jpg'
+    image: '/aura-shop/images/categories/diffusers.jpg'
   },
   {
     id: 'gift-sets',
     name: 'Gift sets',
     slug: 'gift-sets',
     description: 'For special moments',
-    image: '/images/categories/gift-sets.jpg'
+    image: '/aura-shop/images/categories/gift-sets.jpg'
   }
 ];
 
@@ -32,11 +32,11 @@ export const products = [
     category: 'candles',
     categoryLabel: 'Aroma candle',
     price: 29.99,
-    image: '/images/aromacandle_1.png',
+    image: '/aura-shop/images/aromacandle_1.png',
     images: [
-      '/images/aromacandle_3.png',
-      '/images/aromacandle_2.png',
-      '/images/aromacandle_1.png'
+      '/aura-shop/images/aromacandle_3.png',
+      '/aura-shop/images/aromacandle_2.png',
+      '/aura-shop/images/aromacandle_1.png'
     ],
     volume: '220ml',
     description: 'Fresh & Energizing citrus candle',
@@ -50,11 +50,11 @@ export const products = [
     category: 'candles',
     categoryLabel: 'Aroma candle',
     price: 24.99,
-    image: '/images/vanila.png',
+    image: '/aura-shop/images/vanila.png',
     images: [
-      '/images/vanila.png',
-      '/images/vanila_2.png',
-      '/images/vanila_3.png'
+      '/aura-shop/images/vanila.png',
+      '/aura-shop/images/vanila_2.png',
+      '/aura-shop/images/vanila_3.png'
     ],
     volume: '220ml',
     description: 'Sweet & Warm candle with vanilla and musk notes',
@@ -68,11 +68,11 @@ export const products = [
     category: 'candles',
     categoryLabel: 'Aroma candle',
     price: 32.99,
-    image: '/images/golden.png',
+    image: '/aura-shop/images/golden.png',
     images: [
-      '/images/golden.png',
-      '/images/golden2.png',
-      '/images/golden3.png'
+      '/aura-shop/images/golden.png',
+      '/aura-shop/images/golden2.png',
+      '/aura-shop/images/golden3.png'
     ],
     volume: '220ml',
     description: 'Floral & Calming garden scent',
@@ -86,11 +86,11 @@ export const products = [
     category: 'candles',
     categoryLabel: 'Aroma candle',
     price: 27.99,
-    image: '/images/cozy.png',
+    image: '/aura-shop/images/cozy.png',
     images: [
-      '/images/cozy3.png',
-      '/images/cozy4.png',
-      '/images/cozy8.png'
+      '/aura-shop/images/cozy3.png',
+      '/aura-shop/images/cozy4.png',
+      '/aura-shop/images/cozy8.png'
     ],
     volume: '220ml',
     description: 'Relaxing lavender scent',
@@ -106,11 +106,11 @@ export const products = [
     category: 'diffusers',
     categoryLabel: 'Aroma-diffuser',
     price: 38.99,
-    image: '/images/moonlit.png',
+    image: '/aura-shop/images/moonlit.png',
     images: [
-      '/images/moonlit.png',
-      '/images/moonlit4.png',
-      '/images/moonlit3.png'
+      '/aura-shop/images/moonlit.png',
+      '/aura-shop/images/moonlit4.png',
+      '/aura-shop/images/moonlit3.png'
     ],
     volume: '220ml',
     description: 'Warm sandalwood diffuser',
@@ -124,11 +124,11 @@ export const products = [
     category: 'diffusers',
     categoryLabel: 'Aroma-diffuser',
     price: 34.99,
-    image: '/images/eternal.png',
+    image: '/aura-shop/images/eternal.png',
     images: [
-      '/images/eternal.png',
-      '/images/eternal2.png',
-      '/images/eternal3.png'
+      '/aura-shop/images/eternal.png',
+      '/aura-shop/images/eternal2.png',
+      '/aura-shop/images/eternal3.png'
     ],
     volume: '220ml',
     description: 'Fresh ocean scent diffuser',
@@ -144,11 +144,11 @@ export const products = [
     category: 'gift-sets',
     categoryLabel: 'Gift set',
     price: 89.99,
-    image: '/images/gift2.png',
+    image: '/aura-shop/images/gift2.png',
     images: [
-      '/images/gift15.png',
-      '/images/gift16.png',
-      '/images/gift17.png'
+      '/aura-shop/images/gift15.png',
+      '/aura-shop/images/gift16.png',
+      '/aura-shop/images/gift17.png'
     ],
     volume: '220ml',
     description: 'Premium candle and diffuser set',
@@ -162,11 +162,11 @@ export const products = [
     category: 'gift-sets',
     categoryLabel: 'Gift set',
     price: 89.99,
-    image: '/images/gift3.png',
+    image: '/aura-shop/images/gift3.png',
     images: [
-      '/images/gift12.png',
-      '/images/gift13.png',
-      '/images/gift14.png'
+      '/aura-shop/images/gift12.png',
+      '/aura-shop/images/gift13.png',
+      '/aura-shop/images/gift14.png'
     ],
     volume: '220ml',
     description: 'Premium candle and diffuser set',
@@ -180,11 +180,11 @@ export const products = [
     category: 'gift-sets',
     categoryLabel: 'Gift set',
     price: 79.99,
-    image: '/images/gift4.png',
+    image: '/aura-shop/images/gift4.png',
     images: [
-      '/images/gift6.png',
-      '/images/gift10.png',
-      '/images/gift11.png'
+      '/aura-shop/images/gift6.png',
+      '/aura-shop/images/gift10.png',
+      '/aura-shop/images/gift11.png'
     ],
     volume: '220ml',
     description: 'Exotic & Mystical gift set',
@@ -198,11 +198,11 @@ export const products = [
     category: 'gift-sets',
     categoryLabel: 'Gift set',
     price: 85.99,
-    image: '/images/gift5.png',
+    image: '/aura-shop/images/gift5.png',
     images: [
-      '/images/gift8.png',
-      '/images/gift7.png',
-      '/images/gift9.png'
+      '/aura-shop/images/gift8.png',
+      '/aura-shop/images/gift7.png',
+      '/aura-shop/images/gift9.png'
     ],
     volume: '220ml',
     description: 'Sweet & Warm gift set',

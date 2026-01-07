@@ -1,6 +1,7 @@
 // src/pages/termsOfService.js
 
 export async function TermsOfServicePage() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="info-page-main">
       <div class="info-page-hero">
@@ -52,7 +53,7 @@ export async function TermsOfServicePage() {
               <li>Post harmful or offensive content</li>
             </ul>
             
-            <img src="/images/terms.png" alt="Terms">
+            <img src="${BASE}images/terms.png" alt="Terms">
           </section>
           
           <section class="info-section">

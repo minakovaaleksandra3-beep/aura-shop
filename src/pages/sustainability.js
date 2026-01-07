@@ -1,6 +1,7 @@
 // src/pages/sustainability.js
 
 export async function SustainabilityPage() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="brand-page-main">
       <!-- Hero Section -->
@@ -15,7 +16,7 @@ export async function SustainabilityPage() {
       <section class="container brand-section">
         <div class="brand-two-column brand-reverse">
           <div class="brand-column">
-            <div class="brand-image-box" style="background-image: url('/images/sust.png');"></div>
+            <div class="brand-image-box" style="background-image: url('${BASE}images/sust.png');"></div>
           </div>
           <div class="brand-column">
             <h2 class="brand-section-title">Our Environmental Mission</h2>
@@ -93,7 +94,7 @@ export async function SustainabilityPage() {
             </div>
           </div>
           <div class="brand-column">
-            <div class="brand-image-box" style="background-image: url('/images/sust1.jpg');"></div>
+            <div class="brand-image-box" style="background-image: url('${BASE}images/sust1.jpg');"></div>
           </div>
         </div>
       </section>

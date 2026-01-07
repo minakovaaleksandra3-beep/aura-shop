@@ -1,6 +1,7 @@
 // src/pages/refundPolicy.js
 
 export async function RefundPolicyPage() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="info-page-main">
       <div class="info-page-hero">
@@ -32,7 +33,7 @@ export async function RefundPolicyPage() {
             <h2>30-Day Money Back Guarantee</h2>
             <p>If you're not completely satisfied with your purchase, you may return it within 30 days of the delivery date for a full refund.</p>
             
-            <img src="/images/refund.png" alt="Refund">
+            <img src="${BASE}images/refund.png" alt="Refund">
           </section>
           
           <section class="info-section">

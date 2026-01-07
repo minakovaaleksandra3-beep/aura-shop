@@ -1,6 +1,7 @@
 // src/pages/candleCare.js
 
 export async function CandleCarePage() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="info-page-main">
       <div class="info-page-hero">
@@ -27,7 +28,7 @@ export async function CandleCarePage() {
             <h2>How to Care for Your AURA Candles</h2>
             <p>Proper candle care ensures a clean, even burn and extends the life of your favorite AURA candles.</p>
             
-           <img src="/images/candle2.png" alt="Candle Care">
+           <img src="${BASE}images/candle2.png" alt="Candle Care">
           </section>
           
           <section class="info-section">

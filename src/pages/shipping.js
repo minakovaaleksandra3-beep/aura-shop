@@ -1,6 +1,7 @@
 // src/pages/shipping.js
 
 export async function ShippingPage() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="info-page-main">
       <div class="info-page-hero">
@@ -36,7 +37,7 @@ export async function ShippingPage() {
             
             <p><strong>Free shipping</strong> on all orders over $75!</p>
             
-           <img src="/images/shipping2.png" alt="Shipping">
+          <img src="${BASE}images/shipping2.png" alt="Shipping">
           </section>
           
           <section class="info-section">
@@ -59,7 +60,7 @@ export async function ShippingPage() {
               <li>Proof of purchase required</li>
             </ul>
             
-            <img src="/images/shipping.png" alt="Returns">
+           <img src="${BASE}images/shipping.png" alt="Returns">
           </section>
           
           <section class="info-section">

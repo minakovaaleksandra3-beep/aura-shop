@@ -1,6 +1,7 @@
 // src/pages/promotions.js
 
 export async function PromotionsPage() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="brand-page-main">
       <!-- Hero Section -->
@@ -90,7 +91,7 @@ export async function PromotionsPage() {
             </p>
           </div>
           <div class="brand-column">
-            <div class="brand-image-box" style="background-image: url('/images/promotions.png');"></div>
+            <div class="brand-image-box" style="background-image: url('${BASE}images/promotions.png');"></div>
           </div>
         </div>
       </section>

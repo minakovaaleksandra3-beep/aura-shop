@@ -1,6 +1,7 @@
 // src/pages/wholesale.js
 
 export async function WholesalePage() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="brand-page-main">
       <!-- Hero Section -->
@@ -28,7 +29,7 @@ export async function WholesalePage() {
             </p>
           </div>
           <div class="brand-column">
-            <div class="brand-image-box" style="background-image: url('/images/wholesale.png');"></div>
+            <div class="brand-image-box" style="background-image: url('${BASE}images/wholesale.png');"></div>
           </div>
         </div>
       </section>

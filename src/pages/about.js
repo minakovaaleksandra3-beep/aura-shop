@@ -1,6 +1,7 @@
 // src/pages/about.js
 
 export async function About() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="about-main">
       <!-- Hero Section -->
@@ -35,7 +36,7 @@ export async function About() {
               but our commitment remains the same—creating fragrances that transform spaces and elevate everyday moments.
             </p>
           </div>
-          <div class="about-image" style="background-image: url('/images/about_as2.png');"></div>
+         <div class="about-image" style="background-image: url('${BASE}images/about_as2.png');"></div>
         </div>
       </section>
 
@@ -75,7 +76,7 @@ export async function About() {
       <!-- Philosophy Section -->
       <section class="container about-section">
         <div class="about-content-grid about-reverse">
-          <div class="about-image" style="background-image: url('/images/about_as.png');"></div>
+          <div class="about-image" style="background-image: url('${BASE}images/about_as.png');"></div>
           <div class="about-text">
             <h2 class="about-section-title">Our Philosophy</h2>
             <p class="about-paragraph">

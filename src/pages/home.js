@@ -108,10 +108,7 @@ export async function Home() {
           <div class="home-blog-grid">
             ${data.stories.map(story => `
               <a href="#/blog/${story.id}" class="home-blog-card">
-                <div class="home-blog-card-image" style="background-image: url('${story.image}');"></div>
-                <div class="home-blog-card-content">
-                  <h3 class="home-blog-card-title">${story.title}</h3>
-                </div>
+                <div class="home-blog-card-image" style="background-image: url('${getAssetPath(story.image)}');"></div>
               </a>
             `).join('')}
           </div>

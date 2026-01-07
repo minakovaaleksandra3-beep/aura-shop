@@ -1,6 +1,7 @@
 // src/pages/press.js
 
 export async function PressPage() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="brand-page-main">
       <!-- Hero Section -->
@@ -37,7 +38,7 @@ export async function PressPage() {
             </div>
           </div>
           <div class="brand-column">
-            <div class="brand-image-box" style="background-image: url('/images/press.png');"></div>
+            <div class="brand-image-box" style="background-image: url('${BASE}images/press.png');"></div>
           </div>
         </div>
       </section>

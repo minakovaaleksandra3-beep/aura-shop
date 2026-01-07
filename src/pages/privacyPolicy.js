@@ -1,6 +1,7 @@
 // src/pages/privacyPolicy.js
 
 export async function PrivacyPolicyPage() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="info-page-main">
       <div class="info-page-hero">
@@ -47,7 +48,7 @@ export async function PrivacyPolicyPage() {
               <li>Pages visited and time spent on our site</li>
             </ul>
            
-            <img src="/images/privacy.png" alt="Privacy">
+            <img src="${BASE}images/privacy.png" alt="Privacy">
           </section>
           
           <section class="info-section">

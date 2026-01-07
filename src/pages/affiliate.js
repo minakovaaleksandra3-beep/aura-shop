@@ -1,6 +1,7 @@
 // src/pages/affiliate.js
 
 export async function AffiliatePage() {
+  const BASE = import.meta.env.BASE_URL;
   return `
     <main class="brand-page-main">
       <!-- Hero Section -->
@@ -148,7 +149,7 @@ export async function AffiliatePage() {
             </div>
           </div>
           <div class="brand-column">
-            <div class="brand-image-box" style="background-image: url('/images/affilate.jpg');"></div>
+            <div class="brand-image-box" style="background-image: url('${BASE}images/affilate.jpg');"></div>
           </div>
         </div>
       </section>
